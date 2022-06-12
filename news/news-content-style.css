@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(244, 244, 244);
+    margin: 0px;
+}
+
+.content {
+    margin: 10px;
+}
+
+.news-content {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(228, 228, 228);
+    font-family: "Helvetica","Arial",sans-serif;
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+.t0 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.t1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 15px;
+    width: 80%;
+}
+
+.material-icons.blue {
+    color: rgb(4, 133, 255);
+}
+
+.text-a {
+    text-decoration: none;
+    color: rgb(4, 133, 255);
+}
+
+.text-a:hover {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 0.8em;
+    height: 1em;
+    background-color: rgba(201, 201, 201, 0.748);
+  }
+  
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(186, 186, 186);
+    border-radius: 100vw;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(136, 136, 136);
+    border-radius: 100vw;
+} 
+
+@media screen and (max-width: 500px) {
+    .text {
+        width: 100%;
+    }
+}
